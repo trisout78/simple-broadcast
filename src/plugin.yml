@@ -3,5 +3,8 @@ version: 1.0.0
 main: fr.trisout.simplebroadcast.Main
 commands:
   broadcast:
-    permission: broadcast.use
+    permission: simplebroadcast.broadcast.use
     description: broadcast command
+  annonce:
+    permission: simplebroadcast.annonce.use
+    description: annonce command
