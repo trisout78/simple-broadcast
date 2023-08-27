@@ -21,10 +21,10 @@ public class CommandBroadcast implements CommandExecutor {
                     bc.append(part + " ");
                 }
                 Bukkit.broadcastMessage("");
-                Bukkit.broadcastMessage("§c§n§lAnnonce :§r " + bc.toString());
+                Bukkit.broadcastMessage("§c§n§lAnnouncement :§r " + bc.toString());
                 Bukkit.broadcastMessage("");
                 for (Player onlinePlayer : Bukkit.getOnlinePlayers()) {
-                    onlinePlayer.sendTitle("§c§lAnnonce :", bc.toString());
+                    onlinePlayer.sendTitle("§c§lAnnouncement :", bc.toString());
                     onlinePlayer.playSound(onlinePlayer.getLocation(), Sound.valueOf("UI_TOAST_CHALLENGE_COMPLETE"), 1, 1);
                 }
 
