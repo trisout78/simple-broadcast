@@ -1,0 +1,7 @@
+name: SimpleBroadcast
+version: 1.0.0
+main: fr.trisout.simplebroadcast.Main
+commands:
+  broadcast:
+    permission: broadcast.use
+    description: broadcast command
