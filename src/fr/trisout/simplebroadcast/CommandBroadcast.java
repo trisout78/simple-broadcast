@@ -22,7 +22,7 @@ public class CommandBroadcast implements CommandExecutor {
                     bc.append(part + " ");
                 }
                 Bukkit.broadcastMessage("");
-                Bukkit.broadcastMessage("§c§n§lAnnonce:§r \n" + Strings.color(bc.toString()));
+                Bukkit.broadcastMessage("§c§n§lAnnouncement:§r \n" + Strings.color(bc.toString()));
                 Bukkit.broadcastMessage("");
                 for (Player onlinePlayer : Bukkit.getOnlinePlayers()) {
                     onlinePlayer.playSound(onlinePlayer.getLocation(), Sound.valueOf("BLOCK_END_PORTAL_SPAWN"), 1, 1);

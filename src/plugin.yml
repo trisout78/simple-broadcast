@@ -5,6 +5,6 @@ commands:
   broadcast:
     permission: simplebroadcast.broadcast.use
     description: broadcast command
-  annonce:
-    permission: simplebroadcast.annonce.use
+  announcement:
+    permission: simplebroadcast.announcement.use
     description: annonce command
